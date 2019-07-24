@@ -6,13 +6,8 @@
 trigger:
 - master
 
-# pool:
-#  vmImage: 'ubuntu-latest'
-
 pool:
-  vmImage: 'win1803'
-
-container: mcr.microsoft.com/windows/servercore:1803
+  vmImage: 'ubuntu-latest'
 
 
 steps:

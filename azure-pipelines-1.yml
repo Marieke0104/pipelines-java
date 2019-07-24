@@ -10,9 +10,10 @@ trigger:
 #  vmImage: 'ubuntu-latest'
 
 pool:
-  vmImage: 'ubuntu-18.04'
+  vmImage: 'win1803'
 
-container: ubuntu:18.04
+container: mcr.microsoft.com/windows/servercore:1803
+
 
 steps:
 - task: Maven@3

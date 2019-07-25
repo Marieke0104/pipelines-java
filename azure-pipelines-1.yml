@@ -6,9 +6,12 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+# pool:
+#   vmImage: 'ubuntu-latest'
 
+container:
+  image: imagesps.azurecr.io/windowsservercore
+  endpoint: my_acr_connection
 
 steps:
 - task: Maven@3

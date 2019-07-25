@@ -9,9 +9,15 @@ trigger:
 # pool:
 #   vmImage: 'ubuntu-latest'
 
-container:
-  image: imagesps.azurecr.io/windowsservercore
-  endpoint: imagesps.azurecr.io
+# container:
+#   image: imagesps.azurecr.io/windowsservercore
+#   endpoint: imagesps.azurecr.io
+
+pool:
+  vmImage: 'ubuntu-16.04'
+
+container: ubuntu:16.04
+
 
 steps:
 - task: Maven@3

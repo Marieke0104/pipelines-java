@@ -11,7 +11,7 @@ trigger:
 
 container:
   image: imagesps.azurecr.io/windowsservercore
-  endpoint: stedin-digital-platform-poc-001
+  endpoint: imagesps.azurecr.io
 
 steps:
 - task: Maven@3
